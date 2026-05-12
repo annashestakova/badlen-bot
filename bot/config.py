@@ -1,3 +1,4 @@
+from typing import Optional
 """Конфигурация бота — всё через переменные окружения."""
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -14,7 +15,7 @@ class Settings(BaseSettings):
     # Telegram
     bot_token: str
     webhook_secret: str
-    webhook_url: str | None = None
+    webhook_url: Optional[str] = None
     admin_ids: list[int] = []
 
     # БД

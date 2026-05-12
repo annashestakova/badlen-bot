@@ -283,7 +283,7 @@ def fitting_times_kb(slots: list, date_iso: str) -> InlineKeyboardMarkup:
     return b.as_markup()
 
 
-def fitting_after_request_kb(admin_username: str | None) -> InlineKeyboardMarkup:
+def fitting_after_request_kb(admin_username: Optional[str]) -> InlineKeyboardMarkup:
     b = InlineKeyboardBuilder()
     if admin_username:
         b.button(text='💬 Написать админу', url=f'https://t.me/{admin_username}')

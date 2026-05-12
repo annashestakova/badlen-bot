@@ -1,3 +1,4 @@
+from typing import Optional
 """Образы с корсетом — галерея луков из БД (загружается админом)."""
 
 from aiogram import Router, F

@@ -1,3 +1,4 @@
+from typing import Optional
 """Гайды по подготовке к примеркам и заказу корсета."""
 
 from aiogram import Router, F

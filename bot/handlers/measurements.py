@@ -1,3 +1,4 @@
+from typing import Optional
 """Пошаговое снятие мерок для корсета. 8 обязательных шагов + 9-й (заметки)."""
 
 from decimal import Decimal

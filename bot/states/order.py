@@ -1,3 +1,4 @@
+from typing import Optional
 """FSM states для многошаговых диалогов."""
 
 from aiogram.fsm.state import State, StatesGroup

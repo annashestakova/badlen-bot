@@ -1,3 +1,4 @@
+from typing import Optional
 """Фабрика бота и диспетчера – используется и для polling, и для webhook."""
 
 from aiogram import Bot, Dispatcher

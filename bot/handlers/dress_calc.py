@@ -1,3 +1,4 @@
+from typing import Optional
 """Калькулятор пошива свадебных и вечерних платьев."""
 
 from aiogram import Router, F

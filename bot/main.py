@@ -1,3 +1,4 @@
+from typing import Optional
 """Локальный запуск через long polling – для разработки.
 Использовать: python -m bot.main"""
 

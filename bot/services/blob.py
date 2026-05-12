@@ -1,3 +1,4 @@
+from typing import Optional
 """Vercel Blob — хранилище фото (тканей, корсетов, луков, платьев).
 
 Когда админ присылает фото в Telegram:

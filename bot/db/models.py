@@ -1,3 +1,4 @@
+from typing import Optional
 """SQLAlchemy 2.0 модели — единый источник правды по БД."""
 
 from datetime import datetime, date, time

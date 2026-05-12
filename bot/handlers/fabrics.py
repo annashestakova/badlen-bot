@@ -1,3 +1,4 @@
+from typing import Optional
 """Просмотр каталога тканей по категориям. Данные – из БД (обновляются парсером decobay)."""
 
 from aiogram import Router, F

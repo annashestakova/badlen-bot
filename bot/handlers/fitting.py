@@ -1,3 +1,4 @@
+from typing import Optional
 """Запись на примерку: клиент выбирает дату → время → админ подтверждает."""
 
 from datetime import date as date_t, datetime, timedelta

@@ -1,3 +1,4 @@
+from typing import Optional
 """Конструктор корсета: тип → ткань → закрытие → опции → заказ."""
 
 from decimal import Decimal

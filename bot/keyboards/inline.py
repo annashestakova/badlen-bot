@@ -1,3 +1,4 @@
+from typing import Optional
 """Inline-клавиатуры бота."""
 
 from datetime import date as date_t, time as time_t

@@ -1,3 +1,4 @@
+from typing import Optional
 """Upstash Redis через REST API – работает в serverless без TCP-соединений."""
 
 from upstash_redis.asyncio import Redis

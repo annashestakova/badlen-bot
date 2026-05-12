@@ -1,3 +1,4 @@
+from typing import Optional
 """/start и навигация по главному меню."""
 
 from aiogram import Router, F
